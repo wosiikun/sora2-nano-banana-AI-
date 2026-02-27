@@ -1,0 +1,17 @@
+{
+  "id": "20260122_221716",
+  "theme": "未来主题，主角女，配角男，15s",
+  "created_at": "2026-01-22T22:17:16.585680",
+  "script": "",
+  "base_json": [],
+  "characters": {},
+  "scenes": {},
+  "segments": [],
+  "conversations": [],
+  "one_click_settings": {
+    "model": "sora-image",
+    "character_size": "1:1",
+    "scene_size": "16:9",
+    "storyboard_size": "16:9"
+  }
+}

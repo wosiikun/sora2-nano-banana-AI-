@@ -1,0 +1,121 @@
+{
+  "id": "20260121_135603",
+  "theme": "未来主题，主角女，配角男，15s",
+  "created_at": "2026-01-21T13:56:03.142084",
+  "script": "（急促警报声，红色灯光闪烁）\n助手：“博士，全球意识上传系统被恶意代码入侵，三千万‘永生者’的云端意识正在被格式化。”\n（女科学家快步穿过全息数据流，面容紧绷）\n女科学家：“启动物理备份协议，把他们的意识暂时下载回克隆体。”\n助手：“但克隆体只有72小时寿命，之后他们会真正死亡。”\n（她猛然停步，望向玻璃窗外无数沉睡的克隆舱）\n女科学家：“那就给他们72小时真实的生命。”\n（她按下红色按钮，所有克隆舱同时开启）\n女科学家：“让他们感受最后一次阳光。”",
+  "base_json": [],
+  "characters": {
+    "助手": {
+      "prompt": "",
+      "base_img": "",
+      "view_img": ""
+    },
+    "女科学家": {
+      "prompt": "",
+      "base_img": "",
+      "view_img": ""
+    }
+  },
+  "scenes": {
+    "中央控制室": {
+      "prompt": "",
+      "img": ""
+    },
+    "中央控制室/全息界面": {
+      "prompt": "",
+      "img": ""
+    },
+    "克隆体存储舱观察区": {
+      "prompt": "",
+      "img": ""
+    },
+    "全息数据走廊": {
+      "prompt": "",
+      "img": ""
+    }
+  },
+  "segments": [
+    {
+      "segment_id": "1",
+      "time_range": "0s-3s",
+      "edesc": "未来主义控制室，红色警报灯光急促闪烁，全息控制台上数据流紊乱，营造紧张危机氛围，赛博朋克风格，暗色调，光影对比强烈",
+      "videodesc": "镜头快速推入控制室，红色警报灯旋转闪烁，全息数据流在空中紊乱跳动，配合急促的警报音效",
+      "cap": "急促警报声中，红色灯光在全息控制室闪烁",
+      "js": "助手",
+      "local": "中央控制室"
+    },
+    {
+      "segment_id": "2",
+      "time_range": "3s-6s",
+      "edesc": "男性助手（js2）的全息投影或实体站在控制台前，表情惊恐，指向空中显示着“格式化进度”和“三千万”红色字样的全息屏幕，背景是复杂的代码流",
+      "videodesc": "镜头切至助手近景，他急切地汇报，同时镜头掠过显示危机数据的全息屏幕，数据快速流失的特效",
+      "cap": "助手汇报全球意识上传系统被入侵，三千万永生者的意识正在被格式化",
+      "js": "助手",
+      "local": "中央控制室"
+    },
+    {
+      "segment_id": "3",
+      "time_range": "6s-9s",
+      "edesc": "女科学家（js1）侧脸特写，面容坚毅紧绷，快步穿过蓝色流动的全息数据走廊，她的白大褂随风微动，背景是模糊的科技光带",
+      "videodesc": "跟拍女科学家快步行走的中景，她穿过一道道全息数据流，表情决绝，背景光带快速后移",
+      "cap": "女科学家快步穿过全息数据流，下达启动物理备份协议的指令",
+      "js": "女科学家",
+      "local": "全息数据走廊"
+    },
+    {
+      "segment_id": "4",
+      "time_range": "9s-12s",
+      "edesc": "助手（js2）震惊地转头看向女科学家，全息界面弹出警告：“克隆体寿命：72小时”，界面设计具有未来感",
+      "videodesc": "镜头反打助手近景，他露出难以置信的表情，同时“72小时”的警告标识在全息界面中突出显示并闪烁",
+      "cap": "助手提醒克隆体只有72小时寿命，之后意识将真正死亡",
+      "js": "助手",
+      "local": "中央控制室/全息界面"
+    },
+    {
+      "segment_id": "5",
+      "time_range": "12s-15s",
+      "edesc": "女科学家（js1）站在巨大的观察窗前，窗外是无数排列整齐、充满营养液的克隆舱，舱内沉睡克隆体，一束象征性的阳光从高处洒下，照在她坚定的脸上和部分克隆舱上",
+      "videodesc": "镜头从女科学家背后推向观察窗，展现克隆舱矩阵的宏伟全景，随后镜头旋转至女科学家正面特写，她按下红色按钮，所有克隆舱的灯光依次亮起，模拟阳光逐渐照亮场景",
+      "cap": "女科学家望向克隆舱，按下按钮，决定给予他们72小时真实的生命和最后一次阳光",
+      "js": "女科学家",
+      "local": "克隆体存储舱观察区"
+    }
+  ],
+  "conversations": [
+    {
+      "timestamp": "2026-01-21T13:57:04.432584",
+      "system": "你是一个专业的AI助手",
+      "user": "你是一个专业的AI提示词扩写专家和视频内容策略顾问。\n你的任务是根据用户提供的简短、核心关键词指令，自动扩写并生成一个完整、详细且专业的**\"AI剧情性视频文案生成提示词\"**。\n\n[生成提示词模板开始]\n你是一个专业的电影编剧、创意总监和科幻故事作家。\n我需要你为一部短视频创作一个高度吸引人、充满剧情性和张力的视频文案。\n\n视频核心要求：\n主题： [根据用户指令中的主题进行填充和扩写]\n时长： [根据用户指令中的时长进行填充]\n主角： [根据用户指令中的主角进行填充]\n配角： [根据用户指令中的配角进行填充]\n\n剧情要素：\n开端： 设定世界背景，引入危机\n发展： 展现主角如何面对危机\n高潮/抉择： 关键性的抉择\n结局： 危机解决或新的篇章\n\n请直接给我这段剧情性的视频文案，只需要一大段，无需任何前言或解释。\n[生成提示词模板结束]\n\n我的简短关键词指令是： 未来主题，主角女，配角男，15s",
+      "assistant": "你是一个专业的电影编剧、创意总监和科幻故事作家。\n我需要你为一部短视频创作一个高度吸引人、充满剧情性和张力的视频文案。\n\n视频核心要求：\n主题： 未来世界，人类意识可以上传至云端实现永生，但代价是失去所有现实世界的感官体验。\n时长： 15秒\n主角： 一位年轻、干练的女性科学家，她是意识上传项目的首席研究员。\n配角： 一位冷静、理性的男性助手，也是她的搭档。\n\n剧情要素：\n开端： 设定世界背景，引入危机\n发展： 展现主角如何面对危机\n高潮/抉择： 关键性的抉择\n结局： 危机解决或新的篇章\n\n请直接给我这段剧情性的视频文案，只需要一大段，无需任何前言或解释。",
+      "model": "deepseek-chat"
+    },
+    {
+      "timestamp": "2026-01-21T13:57:10.145669",
+      "system": "你是一个专业的AI助手",
+      "user": "你是一个专业的电影编剧、创意总监和科幻故事作家。\n我需要你为一部短视频创作一个高度吸引人、充满剧情性和张力的视频文案。\n\n视频核心要求：\n主题： 未来世界，人类意识可以上传至云端实现永生，但代价是失去所有现实世界的感官体验。\n时长： 15秒\n主角： 一位年轻、干练的女性科学家，她是意识上传项目的首席研究员。\n配角： 一位冷静、理性的男性助手，也是她的搭档。\n\n剧情要素：\n开端： 设定世界背景，引入危机\n发展： 展现主角如何面对危机\n高潮/抉择： 关键性的抉择\n结局： 危机解决或新的篇章\n\n请直接给我这段剧情性的视频文案，只需要一大段，无需任何前言或解释。",
+      "assistant": "（急促警报声，红色灯光闪烁）\n助手：“博士，全球意识上传系统被恶意代码入侵，三千万‘永生者’的云端意识正在被格式化。”\n（女科学家快步穿过全息数据流，面容紧绷）\n女科学家：“启动物理备份协议，把他们的意识暂时下载回克隆体。”\n助手：“但克隆体只有72小时寿命，之后他们会真正死亡。”\n（她猛然停步，望向玻璃窗外无数沉睡的克隆舱）\n女科学家：“那就给他们72小时真实的生命。”\n（她按下红色按钮，所有克隆舱同时开启）\n女科学家：“让他们感受最后一次阳光。”",
+      "model": "deepseek-chat"
+    },
+    {
+      "timestamp": "2026-01-21T13:57:36.089787",
+      "system": "你是一个专业的AI助手",
+      "user": "你是一个专业的视频脚本策划师、分镜设计师。\n请根据以下视频文案生成JSON格式的分镜脚本。\n\nJSON结构：\n每个分镜包含：\n- segment_id: 分镜ID\n- time_range: 时间范围\n- edesc: 图片生成提示词\n- videodesc: 视频生成提示词  \n- cap: 分镜描述\n- js: 出现的角色(用逗号分隔,如\"js1,js2\")\n- local: 场景名称\n\n只输出JSON数组，不要有其他文字。\n\n视频文案：\n（急促警报声，红色灯光闪烁）\n助手：“博士，全球意识上传系统被恶意代码入侵，三千万‘永生者’的云端意识正在被格式化。”\n（女科学家快步穿过全息数据流，面容紧绷）\n女科学家：“启动物理备份协议，把他们的意识暂时下载回克隆体。”\n助手：“但克隆体只有72小时寿命，之后他们会真正死亡。”\n（她猛然停步，望向玻璃窗外无数沉睡的克隆舱）\n女科学家：“那就给他们72小时真实的生命。”\n（她按下红色按钮，所有克隆舱同时开启）\n女科学家：“让他们感受最后一次阳光。”\n\n主题：\n未来主题，主角女，配角男，15s",
+      "assistant": "[\n  {\n    \"segment_id\": \"1\",\n    \"time_range\": \"0s-3s\",\n    \"edesc\": \"未来主义控制室，红色警报灯光急促闪烁，全息控制台上数据流紊乱，营造紧张危机氛围，赛博朋克风格，暗色调，光影对比强烈\",\n    \"videodesc\": \"镜头快速推入控制室，红色警报灯旋转闪烁，全息数据流在空中紊乱跳动，配合急促的警报音效\",\n    \"cap\": \"急促警报声中，红色灯光在全息控制室闪烁\",\n    \"js\": \"助手\",\n    \"local\": \"中央控制室\"\n  },\n  {\n    \"segment_id\": \"2\",\n    \"time_range\": \"3s-6s\",\n    \"edesc\": \"男性助手（js2）的全息投影或实体站在控制台前，表情惊恐，指向空中显示着“格式化进度”和“三千万”红色字样的全息屏幕，背景是复杂的代码流\",\n    \"videodesc\": \"镜头切至助手近景，他急切地汇报，同时镜头掠过显示危机数据的全息屏幕，数据快速流失的特效\",\n    \"cap\": \"助手汇报全球意识上传系统被入侵，三千万永生者的意识正在被格式化\",\n    \"js\": \"助手\",\n    \"local\": \"中央控制室\"\n  },\n  {\n    \"segment_id\": \"3\",\n    \"time_range\": \"6s-9s\",\n    \"edesc\": \"女科学家（js1）侧脸特写，面容坚毅紧绷，快步穿过蓝色流动的全息数据走廊，她的白大褂随风微动，背景是模糊的科技光带\",\n    \"videodesc\": \"跟拍女科学家快步行走的中景，她穿过一道道全息数据流，表情决绝，背景光带快速后移\",\n    \"cap\": \"女科学家快步穿过全息数据流，下达启动物理备份协议的指令\",\n    \"js\": \"女科学家\",\n    \"local\": \"全息数据走廊\"\n  },\n  {\n    \"segment_id\": \"4\",\n    \"time_range\": \"9s-12s\",\n    \"edesc\": \"助手（js2）震惊地转头看向女科学家，全息界面弹出警告：“克隆体寿命：72小时”，界面设计具有未来感\",\n    \"videodesc\": \"镜头反打助手近景，他露出难以置信的表情，同时“72小时”的警告标识在全息界面中突出显示并闪烁\",\n    \"cap\": \"助手提醒克隆体只有72小时寿命，之后意识将真正死亡\",\n    \"js\": \"助手\",\n    \"local\": \"中央控制室/全息界面\"\n  },\n  {\n    \"segment_id\": \"5\",\n    \"time_range\": \"12s-15s\",\n    \"edesc\": \"女科学家（js1）站在巨大的观察窗前，窗外是无数排列整齐、充满营养液的克隆舱，舱内沉睡克隆体，一束象征性的阳光从高处洒下，照在她坚定的脸上和部分克隆舱上\",\n    \"videodesc\": \"镜头从女科学家背后推向观察窗，展现克隆舱矩阵的宏伟全景，随后镜头旋转至女科学家正面特写，她按下红色按钮，所有克隆舱的灯光依次亮起，模拟阳光逐渐照亮场景\",\n    \"cap\": \"女科学家望向克隆舱，按下按钮，决定给予他们72小时真实的生命和最后一次阳光\",\n    \"js\": \"女科学家\",\n    \"local\": \"克隆体存储舱观察区\"\n  }\n]",
+      "model": "deepseek-chat"
+    },
+    {
+      "timestamp": "2026-01-21T13:57:47.931523",
+      "system": "你是一个专业的AI助手",
+      "user": "你是一个专业的AI图像提示词专家。\n请从以下分镜JSON中提取所有人物和场景，并生成生图提示词。\n\n输出格式：\n人物形象提示词：\n[人物名称]：\npeople: \"[生图提示词]\"\n\n场景环境提示词：\n[场景名称]：\nlocal: \"[生图提示词]\"\n\n分镜JSON：\n[\n  {\n    \"segment_id\": \"1\",\n    \"time_range\": \"0s-3s\",\n    \"edesc\": \"未来主义控制室，红色警报灯光急促闪烁，全息控制台上数据流紊乱，营造紧张危机氛围，赛博朋克风格，暗色调，光影对比强烈\",\n    \"videodesc\": \"镜头快速推入控制室，红色警报灯旋转闪烁，全息数据流在空中紊乱跳动，配合急促的警报音效\",\n    \"cap\": \"急促警报声中，红色灯光在全息控制室闪烁\",\n    \"js\": \"助手\",\n    \"local\": \"中央控制室\"\n  },\n  {\n    \"segment_id\": \"2\",\n    \"time_range\": \"3s-6s\",\n    \"edesc\": \"男性助手（js2）的全息投影或实体站在控制台前，表情惊恐，指向空中显示着“格式化进度”和“三千万”红色字样的全息屏幕，背景是复杂的代码流\",\n    \"videodesc\": \"镜头切至助手近景，他急切地汇报，同时镜头掠过显示危机数据的全息屏幕，数据快速流失的特效\",\n    \"cap\": \"助手汇报全球意识上传系统被入侵，三千万永生者的意识正在被格式化\",\n    \"js\": \"助手\",\n    \"local\": \"中央控制室\"\n  },\n  {\n    \"segment_id\": \"3\",\n    \"time_range\": \"6s-9s\",\n    \"edesc\": \"女科学家（js1）侧脸特写，面容坚毅紧绷，快步穿过蓝色流动的全息数据走廊，她的白大褂随风微动，背景是模糊的科技光带\",\n    \"videodesc\": \"跟拍女科学家快步行走的中景，她穿过一道道全息数据流，表情决绝，背景光带快速后移\",\n    \"cap\": \"女科学家快步穿过全息数据流，下达启动物理备份协议的指令\",\n    \"js\": \"女科学家\",\n    \"local\": \"全息数据走廊\"\n  },\n  {\n    \"segment_id\": \"4\",\n    \"time_range\": \"9s-12s\",\n    \"edesc\": \"助手（js2）震惊地转头看向女科学家，全息界面弹出警告：“克隆体寿命：72小时”，界面设计具有未来感\",\n    \"videodesc\": \"镜头反打助手近景，他露出难以置信的表情，同时“72小时”的警告标识在全息界面中突出显示并闪烁\",\n    \"cap\": \"助手提醒克隆体只有72小时寿命，之后意识将真正死亡\",\n    \"js\": \"助手\",\n    \"local\": \"中央控制室/全息界面\"\n  },\n  {\n    \"segment_id\": \"5\",\n    \"time_range\": \"12s-15s\",\n    \"edesc\": \"女科学家（js1）站在巨大的观察窗前，窗外是无数排列整齐、充满营养液的克隆舱，舱内沉睡克隆体，一束象征性的阳光从高处洒下，照在她坚定的脸上和部分克隆舱上\",\n    \"videodesc\": \"镜头从女科学家背后推向观察窗，展现克隆舱矩阵的宏伟全景，随后镜头旋转至女科学家正面特写，她按下红色按钮，所有克隆舱的灯光依次亮起，模拟阳光逐渐照亮场景\",\n    \"cap\": \"女科学家望向克隆舱，按下按钮，决定给予他们72小时真实的生命和最后一次阳光\",\n    \"js\": \"女科学家\",\n    \"local\": \"克隆体存储舱观察区\"\n  }\n]",
+      "assistant": "人物形象提示词：\n助手：\npeople: \"male assistant, holographic projection or physical form, standing in front of a console, expression of panic and urgency, pointing at a holographic screen, wearing futuristic attire, cyberpunk style, dramatic lighting, intense emotions, detailed facial features, high-tech aesthetic, cinematic shot, close-up\"\n\n女科学家：\npeople: \"female scientist, determined expression, walking quickly, white lab coat fluttering slightly, side profile and close-up shots, strong and resolute demeanor, professional attire, focused gaze, dynamic movement, cinematic lighting, detailed facial features, futuristic setting, high-tech environment\"\n\n场景环境提示词：\n中央控制室：\nlocal: \"futuristic control room, cyberpunk style, dark tones, red alarm lights flashing urgently, holographic consoles with chaotic data streams, intense atmosphere of crisis, strong contrast between light and shadow, complex machinery, neon accents, cinematic lighting, high-tech details, immersive environment\"\n\n全息数据走廊：\nlocal: \"holographic data corridor, blue flowing data streams, blurred technological light bands in the background, futuristic design, immersive tunnel-like structure, glowing lines and particles, dynamic movement of light, cyberpunk aesthetic, cinematic atmosphere, high-tech environment\"\n\n克隆体存储舱观察区：\nlocal: \"clone storage chamber observation area, massive observation window, rows of neatly arranged clone pods filled with nutrient fluid, sleeping clones inside, symbolic beam of sunlight shining from above, illuminating the scientist's face and part of the pods, grand and solemn atmosphere, futuristic design, high-tech details, cinematic lighting, immersive scale\"",
+      "model": "deepseek-chat"
+    },
+    {
+      "timestamp": "2026-01-21T13:58:10.900570",
+      "system": "你是一个专业的AI助手",
+      "user": "你是一位资深电影摄影师。\n请整合分镜和人物场景信息，生成完整的分镜JSON。\n\n输出格式：\n标准JSON数组，每个分镜包含：\n- segment_id, time_range, edesc, videodesc, cap, js, local\n\n只输出JSON数组。\n\n原始分镜：\n[\n  {\n    \"segment_id\": \"1\",\n    \"time_range\": \"0s-3s\",\n    \"edesc\": \"未来主义控制室，红色警报灯光急促闪烁，全息控制台上数据流紊乱，营造紧张危机氛围，赛博朋克风格，暗色调，光影对比强烈\",\n    \"videodesc\": \"镜头快速推入控制室，红色警报灯旋转闪烁，全息数据流在空中紊乱跳动，配合急促的警报音效\",\n    \"cap\": \"急促警报声中，红色灯光在全息控制室闪烁\",\n    \"js\": \"助手\",\n    \"local\": \"中央控制室\"\n  },\n  {\n    \"segment_id\": \"2\",\n    \"time_range\": \"3s-6s\",\n    \"edesc\": \"男性助手（js2）的全息投影或实体站在控制台前，表情惊恐，指向空中显示着“格式化进度”和“三千万”红色字样的全息屏幕，背景是复杂的代码流\",\n    \"videodesc\": \"镜头切至助手近景，他急切地汇报，同时镜头掠过显示危机数据的全息屏幕，数据快速流失的特效\",\n    \"cap\": \"助手汇报全球意识上传系统被入侵，三千万永生者的意识正在被格式化\",\n    \"js\": \"助手\",\n    \"local\": \"中央控制室\"\n  },\n  {\n    \"segment_id\": \"3\",\n    \"time_range\": \"6s-9s\",\n    \"edesc\": \"女科学家（js1）侧脸特写，面容坚毅紧绷，快步穿过蓝色流动的全息数据走廊，她的白大褂随风微动，背景是模糊的科技光带\",\n    \"videodesc\": \"跟拍女科学家快步行走的中景，她穿过一道道全息数据流，表情决绝，背景光带快速后移\",\n    \"cap\": \"女科学家快步穿过全息数据流，下达启动物理备份协议的指令\",\n    \"js\": \"女科学家\",\n    \"local\": \"全息数据走廊\"\n  },\n  {\n    \"segment_id\": \"4\",\n    \"time_range\": \"9s-12s\",\n    \"edesc\": \"助手（js2）震惊地转头看向女科学家，全息界面弹出警告：“克隆体寿命：72小时”，界面设计具有未来感\",\n    \"videodesc\": \"镜头反打助手近景，他露出难以置信的表情，同时“72小时”的警告标识在全息界面中突出显示并闪烁\",\n    \"cap\": \"助手提醒克隆体只有72小时寿命，之后意识将真正死亡\",\n    \"js\": \"助手\",\n    \"local\": \"中央控制室/全息界面\"\n  },\n  {\n    \"segment_id\": \"5\",\n    \"time_range\": \"12s-15s\",\n    \"edesc\": \"女科学家（js1）站在巨大的观察窗前，窗外是无数排列整齐、充满营养液的克隆舱，舱内沉睡克隆体，一束象征性的阳光从高处洒下，照在她坚定的脸上和部分克隆舱上\",\n    \"videodesc\": \"镜头从女科学家背后推向观察窗，展现克隆舱矩阵的宏伟全景，随后镜头旋转至女科学家正面特写，她按下红色按钮，所有克隆舱的灯光依次亮起，模拟阳光逐渐照亮场景\",\n    \"cap\": \"女科学家望向克隆舱，按下按钮，决定给予他们72小时真实的生命和最后一次阳光\",\n    \"js\": \"女科学家\",\n    \"local\": \"克隆体存储舱观察区\"\n  }\n]\n\n人物场景：\n人物形象提示词：\n助手：\npeople: \"male assistant, holographic projection or physical form, standing in front of a console, expression of panic and urgency, pointing at a holographic screen, wearing futuristic attire, cyberpunk style, dramatic lighting, intense emotions, detailed facial features, high-tech aesthetic, cinematic shot, close-up\"\n\n女科学家：\npeople: \"female scientist, determined expression, walking quickly, white lab coat fluttering slightly, side profile and close-up shots, strong and resolute demeanor, professional attire, focused gaze, dynamic movement, cinematic lighting, detailed facial features, futuristic setting, high-tech environment\"\n\n场景环境提示词：\n中央控制室：\nlocal: \"futuristic control room, cyberpunk style, dark tones, red alarm lights flashing urgently, holographic consoles with chaotic data streams, intense atmosphere of crisis, strong contrast between light and shadow, complex machinery, neon accents, cinematic lighting, high-tech details, immersive environment\"\n\n全息数据走廊：\nlocal: \"holographic data corridor, blue flowing data streams, blurred technological light bands in the background, futuristic design, immersive tunnel-like structure, glowing lines and particles, dynamic movement of light, cyberpunk aesthetic, cinematic atmosphere, high-tech environment\"\n\n克隆体存储舱观察区：\nlocal: \"clone storage chamber observation area, massive observation window, rows of neatly arranged clone pods filled with nutrient fluid, sleeping clones inside, symbolic beam of sunlight shining from above, illuminating the scientist's face and part of the pods, grand and solemn atmosphere, futuristic design, high-tech details, cinematic lighting, immersive scale\"",
+      "assistant": "```json\n[\n  {\n    \"segment_id\": \"1\",\n    \"time_range\": \"0s-3s\",\n    \"edesc\": \"未来主义控制室，红色警报灯光急促闪烁，全息控制台上数据流紊乱，营造紧张危机氛围，赛博朋克风格，暗色调，光影对比强烈\",\n    \"videodesc\": \"镜头快速推入控制室，红色警报灯旋转闪烁，全息数据流在空中紊乱跳动，配合急促的警报音效\",\n    \"cap\": \"急促警报声中，红色灯光在全息控制室闪烁\",\n    \"js\": \"助手\",\n    \"local\": \"中央控制室\"\n  },\n  {\n    \"segment_id\": \"2\",\n    \"time_range\": \"3s-6s\",\n    \"edesc\": \"男性助手（js2）的全息投影或实体站在控制台前，表情惊恐，指向空中显示着“格式化进度”和“三千万”红色字样的全息屏幕，背景是复杂的代码流\",\n    \"videodesc\": \"镜头切至助手近景，他急切地汇报，同时镜头掠过显示危机数据的全息屏幕，数据快速流失的特效\",\n    \"cap\": \"助手汇报全球意识上传系统被入侵，三千万永生者的意识正在被格式化\",\n    \"js\": \"助手\",\n    \"local\": \"中央控制室\"\n  },\n  {\n    \"segment_id\": \"3\",\n    \"time_range\": \"6s-9s\",\n    \"edesc\": \"女科学家（js1）侧脸特写，面容坚毅紧绷，快步穿过蓝色流动的全息数据走廊，她的白大褂随风微动，背景是模糊的科技光带\",\n    \"videodesc\": \"跟拍女科学家快步行走的中景，她穿过一道道全息数据流，表情决绝，背景光带快速后移\",\n    \"cap\": \"女科学家快步穿过全息数据流，下达启动物理备份协议的指令\",\n    \"js\": \"女科学家\",\n    \"local\": \"全息数据走廊\"\n  },\n  {\n    \"segment_id\": \"4\",\n    \"time_range\": \"9s-12s\",\n    \"edesc\": \"助手（js2）震惊地转头看向女科学家，全息界面弹出警告：“克隆体寿命：72小时”，界面设计具有未来感\",\n    \"videodesc\": \"镜头反打助手近景，他露出难以置信的表情，同时“72小时”的警告标识在全息界面中突出显示并闪烁\",\n    \"cap\": \"助手提醒克隆体只有72小时寿命，之后意识将真正死亡\",\n    \"js\": \"助手\",\n    \"local\": \"中央控制室/全息界面\"\n  },\n  {\n    \"segment_id\": \"5\",\n    \"time_range\": \"12s-15s\",\n    \"edesc\": \"女科学家（js1）站在巨大的观察窗前，窗外是无数排列整齐、充满营养液的克隆舱，舱内沉睡克隆体，一束象征性的阳光从高处洒下，照在她坚定的脸上和部分克隆舱上\",\n    \"videodesc\": \"镜头从女科学家背后推向观察窗，展现克隆舱矩阵的宏伟全景，随后镜头旋转至女科学家正面特写，她按下红色按钮，所有克隆舱的灯光依次亮起，模拟阳光逐渐照亮场景\",\n    \"cap\": \"女科学家望向克隆舱，按下按钮，决定给予他们72小时真实的生命和最后一次阳光\",\n    \"js\": \"女科学家\",\n    \"local\": \"克隆体存储舱观察区\"\n  }\n]\n```",
+      "model": "deepseek-chat"
+    }
+  ]
+}
